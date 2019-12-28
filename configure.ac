@@ -1,5 +1,7 @@
 AC_INIT([gst-plugin-subsink],[0.10])
 
+AC_CONFIG_MACRO_DIR([m4])
+
 dnl versions of gstreamer and plugins-base
 AC_ARG_WITH(gstversion,
 	AS_HELP_STRING([--with-gstversion],[use gstreamer version (major.minor)]),
